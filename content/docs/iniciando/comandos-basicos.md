@@ -14,9 +14,8 @@ toc = true
 top = false
 +++
 
-# Comandos básicos
+## Comandos básicos
 
-| Comando | Descrição |
-| sair | :q |
-| sair sem salvar | :q! |
+### Navegação
 
+### Edição

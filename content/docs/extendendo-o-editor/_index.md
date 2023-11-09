@@ -1,10 +1,10 @@
 +++
-title = "Começando"
-description = "Um rápido guia de como começar no NeoVim."
+title = "Extendendo o neovim com plugins"
+description = "Extendendo o neovim com plugins."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 template = "docs/section.html"
 sort_by = "weight"
-weight = 1
+weight = 3
 draft = false
 +++
