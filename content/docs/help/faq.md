@@ -1,39 +1,52 @@
 +++
 title = "FAQ"
-description = "Answers to frequently asked questions."
-date = 2021-05-01T19:30:00+00:00
-updated = 2021-05-01T19:30:00+00:00
+description = "Perguntas Frequentes."
+date = 2023-11-09T19:30:00+00:00
+updated = 2023-11-09T19:30:00+00:00
 draft = false
 weight = 30
 sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Answers to frequently asked questions."
+lead = "Perguntas Frequentes."
 toc = true
 top = false
 +++
 
-## What is the AdiDoks?
+## O que é NeoVim??
 
-AdiDoks is a Zola theme for Documentation's sites, ported by the Hugo Theme
-[Doks](https://getdoks.org), which is a pretty nice theme. Thanks a lot to 
-[*h-enk*](https://github.com/h-enk), the creator of the [Doks](https://getdoks.org).
+Extensível
 
-## Keyboard shortcuts for search?
+    API de primeira classe: descobrível, versionada, documentada.
+    Comunicação estruturada com MessagePack permite extensões em qualquer linguagem.
+    Plugins remotos funcionam como co-processos, de forma segura e assíncrona.
+    GUIs, IDEs, navegadores web podem incorporar o Neovim como editor ou host de script.
+    Plugins Lua são fáceis de criar, assim como os plugins Vimscript. Sua configuração pode viver em init.lua!
+    Motor de análise que produz AST permite destaque de sintaxe mais rápido e preciso, navegação de código, refatoração, objetos de texto e movimentos.
 
-- focus: `/`
-- select: `↓` and `↑`
-- open: `Enter`
-- close: `Esc`
+Utilizável
 
-## Other documentation?
+    Cliente LSP integrado para inspeção e refatoração de código semântico (ir para a definição, "encontrar referências", formatar, …)
+    Padrões sólidos
+    Funciona da mesma forma em todos os lugares: um tipo de compilação, um comando
+    Recursos modernos de terminal, como estilo de cursor, eventos de foco, colagem entre colchetes
+    Emulador de terminal integrado
 
-- [Netlify](https://docs.netlify.com/)
-- [Zola](https://www.getzola.org/documentation/getting-started/overview/)
+Substituição para o Vim
 
-## Contact the creator?
+    Totalmente compatível com o modelo de edição do Vim e Vimscript v1.
+    Comece com :help nvim-from-vim se você já usa o Vim.
 
-Send *Aaran Xu* an E-mail:
+Qual é o status do projeto?
 
-- <aaranxu@outlook.com>
+    A versão estável atual é a 0.9 (RSS). Consulte o roteiro para acompanhar o progresso e os planos.
+    Neovim está tentando transformar o Vim em uma IDE?
+    Com 30% menos código-fonte do que o Vim, a visão do Neovim é possibilitar novas aplicações sem comprometer os papéis tradicionais do Vim.
+Neovim irá depreciar o Vimscript?
+
+    Não. Lua está integrado, mas o Vimscript é suportado com o mecanismo de Vimscript mais avançado do mundo.
+
+Quais plugins o Neovim suporta?
+
+    Plugins Vim 8.x e muito mais.

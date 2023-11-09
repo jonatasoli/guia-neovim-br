@@ -1,21 +1,21 @@
 +++
-title = "Modern Documentation Theme"
+title = "Guia Neovim Brasil"
 
 
 # The homepage contents
 [extra]
-lead = '<b>AdiDoks</b> is a modern documentation theme, which is a port of the Hugo theme <a href="https://github.com/h-enk/">Doks</a> for Zola.'
-url = "/docs/getting-started/introduction/"
-url_button = "Get started"
+lead = '<b>NeoVim</b> é um editor moderno porinha de comando <a href="https://neovim.io/">Documentação</a>.'
+url = "/docs/getting-started/iniciando/"
+url_button = "Iniciando"
 repo_version = "GitHub v0.1.0"
-repo_license = "Open-source MIT License."
-repo_url = "https://github.com/aaranxu/adidoks"
+repo_license = "Open-source GNU 3 License."
+repo_url = "https://github.com/jonatasoli/guia-neovim-br"
 
 # Menu items
 [[extra.menu.main]]
 name = "Docs"
 section = "docs"
-url = "/docs/getting-started/introduction/"
+url = "/docs/iniciando/introducao/"
 weight = 10
 
 [[extra.menu.main]]
