@@ -1,12 +1,20 @@
 theme = "adidoks"
 # The URL the site will be built for
 base_url = "https://jonatasoli.github.io/guia-neovim-br"
+title = "Guia NeoVim Brasil"
+description = "Um guia sobre como melhorar o seu uso do NeoVim"
+
+default_language = "pt"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+taxonomies = [
+  {name = "authors"}, # Basic definition: no feed or pagination
+]
 
 [markdown]
 # Whether to do syntax highlighting
